@@ -7,8 +7,8 @@
                 "recipe_id": "lemontea:custom_items/magic_basket",
                 "ingredients": [
                     {
-                        "id": "minecraft:enchanted_book",
-                        "components": {"minecraft:custom_data": {"LemonTea.recipe.custom_item.name":"water_element"}}
+                        "items": "minecraft:enchanted_book",
+                        "predicates": {"minecraft:custom_data": {"LemonTea.recipe.custom_item.name":"water_element"}}
                     }
                 ]
             }

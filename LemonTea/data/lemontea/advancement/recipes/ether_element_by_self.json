@@ -7,17 +7,17 @@
                 "recipe_id": "lemontea:custom_items/magic_basket",
                 "ingredients": [
                     {
-                        "id": "minecraft:enchanted_book",
-                        "components": {"minecraft:custom_data": {"LemonTea.recipe.custom_item.name":"wood_element"}}
+                        "items": "minecraft:enchanted_book",
+                        "predicates": {"minecraft:custom_data": {"LemonTea.recipe.custom_item.name":"ether_element"}}
                     }
                 ]
             }
         }
     },
     "rewards": {
-        "function": "lemontea:recipes/unpack_wood_element",
+        "function": "lemontea:recipes/ether_element_by_self",
         "loot": [
-            "lemontea:recipes/unpack_wood_element"
+            "lemontea:recipes/ether_element"
         ]
     }
 }

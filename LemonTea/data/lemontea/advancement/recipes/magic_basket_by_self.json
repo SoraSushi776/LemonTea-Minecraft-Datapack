@@ -7,7 +7,7 @@
                 "recipe_id": "lemontea:custom_items/magic_basket",
                 "ingredients": [
                     {
-                        "id": "minecraft:enchanted_book",
+                        "items": "minecraft:enchanted_book",
                         "components": {"minecraft:custom_model_data": 1470000}
                     }   
                 ]
